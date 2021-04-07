@@ -20,6 +20,9 @@
     font-size: 1.5rem;
 }
 
+p:hover{
+    cursor: default;
+}
 
 /*Header*/
 
@@ -194,5 +197,59 @@ nav a:hover{
 /* ------------------------------------------------------------------------------------*/
 /*Informacion*/
 
+.barra-mid{
+    display: flex;
+    margin-top: -1px;
+    height: 6rem;
+    width: 100%;
+    margin: auto;
+    background: url(./nvoimg/hands1.png); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* .text-bar-mid{
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+} */
+
+/* .text-bar-mid span{
+    padding: 90px;
+} */
+/* .text-bar-mid span p{
+    font-size: 150%;
+    padding: 10px;
+} */
+/* ------------------------------------------------------------------------------------*/
+/*Eleccion de conciertos*/
+/*Subtitutlos*/
+
+.anuncios{
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subtitulos{
+    font-size: 2rem;
+}
 
 
+.cards-concert{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.concert-card{
+    width: 33%;
+    height: 256px;
+    background-size: cover;
+    background-attachment: fixed;
+}
