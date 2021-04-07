@@ -116,17 +116,20 @@ nav a:hover{
 /* ------------------------------------------------------------------------------------*/
 /*Informacion*/
 
-.img-presentacion{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-/* .img-pre1{
-    /* width: 50px;
-    height: 50px; 
+/* .info div{
+    width: 100%;
 } */
 
+
+.img-presentacion{
+    display: flex;
+    justify-content:space-around;
+}
+.img-pre1{
+    width: 50%;
+    margin-top: -10px;
+    opacity: 0.8238; /* opacity: 0.8282; */
+}
 
 
 
