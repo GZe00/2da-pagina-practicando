@@ -2,6 +2,15 @@
     "folders": [
         {
             "path": "."
+        },
+        {
+            "path": "..\\..\\..\\folderTest"
+        },
+        {
+            "path": "..\\semana6_ejercicio;html+css+js"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "semana6_ejercicio;html+css+js"
+    }
 }
